@@ -1,0 +1,6 @@
+from sklearn import datasets
+
+mnist = datasets.fetch_mldata('MNIST original', data_home='./')
+
+data_x = mnist['data']
+data_y = mnist['target']
